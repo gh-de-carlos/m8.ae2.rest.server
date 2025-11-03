@@ -1,0 +1,23 @@
+{
+  "name": "m8.ae2.rest.server",
+  "version": "1.0.0",
+  "description": "A tiny app implementing a RESTful server. No DB, no frontend, no fun.",
+  "license": "ISC",
+  "author": "Carlos Pizarro Morales",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:file": "node server.js --file", 
+    "start:postgres": "node server.js --postgres",
+    "dev": "node --watch server.js",
+    "dev:file": "node --watch server.js --file",
+    "dev:postgres": "node --watch server.js --postgres",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}
