@@ -40,9 +40,9 @@ El propósito de esta actividad es que el/la estudiante entienda, construya y ex
 
 ### Características Implementadas
 
-He realizado uno pequeños cambios para mejorar la calidad del proyecto en relación a lo desafiante que puede ser:
+He realizado unos pequeños cambios para mejorar la calidad del proyecto en relación a lo desafiante que puede ser:
 
-1. En vez de hacer una micro api de RESTful de "saludos", he implementado una pequeña api de "tareas" (`/api/todos`). Esto, con la idea de que no fuera un ejercicio de hacer request a endpoints vacíos.
+1. En vez de hacer una micro api RESTful de "saludos", he implementado una pequeña api de "tareas" (`/api/todos`). Esto, con la idea de que no fuera un ejercicio de hacer request a endpoints vacíos.
 2. He utilizado almacenamiento, y en esta ocasión puedes elegir que sea en formato archivo, utilizando la librería `fs` de Node, o bien a través de una base de datos PostgreSQL, creando una bd de nombre `m8_rest_api`. Mira las instrucciones de instalación y uso abajo para más detalles.
 3. También, aunque es una api mínima, he mantenido los principios de implementar una arquitectura en capas, muy afín a los principios RESTful. Particularmente, los archivos que manejan la configuración del almacenamiento `/storage` son muy entretenidos porque utilizan un patrón 'Factory' que permite entregar una instancia de almacenamiento de los controllers sin importar la opción con la que hayas iniciado el server.
 
