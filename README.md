@@ -110,7 +110,13 @@ El servidor determina el tipo de almacenamiento en este orden:
 
 ### Correr la suite de pruebas
 
-Las pruebas están en `test-api.sh`. Simplemente otórgale permisos de ejecución, inicia el servidor y luego invoca el script `./test-api.sh` para que comiencen los tests. El estilo está en desarrollo aún, pero por este proyecto, quedará así.
+Las pruebas están en `test-api.sh`. Simplemente otórgale permisos de ejecución, inicia el servidor y luego invoca el script `./test-api.sh` para que comiencen los tests. El estilo está en desarrollo aún, pero por este proyecto, quedará así. Si tienes problemas con los códigos ascii, puede ser que tu terminal muestre colores extraños. 
+
+```bash
+kathy@tu_machine at tu_path/m8.ae2.rest.server 
+chmod +x test-api.sh
+./test-api.sh
+```
 
 ### Todos los endpoints de la API
 
