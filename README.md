@@ -1,6 +1,6 @@
 # M8 AE2 Creando un server REST
 
-<video src="./gif.webm" controls autoplay></video>
+![captura](screenshit.png)
 
 
 Carlos Pizarro Morales.
